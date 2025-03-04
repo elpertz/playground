@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Framer Motion Playground
 
-## Getting Started
+Este proyecto es un playground para experimentar con animaciones usando \Motion en Next.js. Incluye tarjetas interactivas con efectos de scroll, rotación y escala.
 
-First, run the development server:
+## Características
+
+- Tarjetas animadas con efectos de scroll (staking cards with offset)
+- Transiciones suaves de escala y rotación (rotation animation when the card enter to de view port)
+
+## Tecnologías utilizadas
+
+- [Next.js](https://nextjs.org/) - Framework de React
+- [Motion](https://www.motion.dev) - Biblioteca de animaciones
+- [TypeScript](https://www.typescriptlang.org/) - Superset tipado de JavaScript
+- [Tailwind CSS](https://tailwindcss.com/) - Framework CSS utilitario
+
+## Instalación
+
+1. Clona el repositorio:
+
+```bash
+git clone https://github.com/elpertz/playground.git
+cd playground
+```
+
+2. Instala las dependencias:
+
+```bash
+npm install
+```
+
+3. Inicia el servidor de desarrollo:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver la aplicación.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Estructura del proyecto
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `app/` - Código fuente de la aplicación
+  - `components/` - Componentes reutilizables
+  - `data.ts` - Datos para las tarjetas
+- `public/images/` - Imágenes utilizadas en el proyecto
 
-## Learn More
+## Aprendizajes
 
-To learn more about Next.js, take a look at the following resources:
+Este proyecto demuestra cómo:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Usar `useScroll` y `useTransform` para crear animaciones basadas en el scroll
+- Aplicar transformaciones de rotación y escala a elementos
+- Trabajar con referencias en React para seguir elementos en el viewport
+- Implementar interfaces tipadas en TypeScript para props de componentes
