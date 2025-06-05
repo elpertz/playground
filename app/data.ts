@@ -8,56 +8,38 @@ export interface Benefit {
 
 export const benefits: Benefit[] = [
   {
-    title: "Easy, fun and results in just 1 minute",
-
+    title: "Classic Denim Jeans with Modern Twist",
     description:
-      "Enjoy the time-saving gifting experience by finding the perfect gifts in just one minute!.",
-
+      "Discover our premium denim collection that combines timeless style with contemporary comfort.",
     src: "/images/img 01.png",
-
     color: "#CEBDF0",
   },
-
   {
-    title: "Explore gifts that match your special someone (or not-so-special)",
-
+    title: "Urban Street Sneakers Collection",
     description:
-      "Discover optios that are a perfect fit, whether for someone close or not close (like your boss)).",
-
+      "Step out in style with our latest urban sneakers, perfect for both comfort and fashion.",
     src: "/images/img 02.png",
-
     color: "#ECF97A",
   },
-
   {
-    title: "Samuel que hace esto?",
-
+    title: "Limited Edition Cargo Pants",
     description:
-      "Carefully chosen gifts demonstrate thoughtfulness and effort, and make the recipient feel valued.",
-
+      "Versatile cargo pants that blend functionality with street style for the modern adventurer.",
     src: "/images/img 03.png",
-
     color: "#C7CBFE",
   },
   {
-    title: "Explore gifts that match your special someone (or not-so-special)",
-
+    title: "High-Performance Running Shoes",
     description:
-      "Discover optios that are a perfect fit, whether for someone close or not close (like your boss)).",
-
+      "Experience ultimate comfort with our cutting-edge running shoes designed for peak performance.",
     src: "/images/img 04.png",
-
     color: "#FF7D61",
   },
-
   {
-    title: "Make your gift more special",
-
+    title: "Designer Track Pants Collection",
     description:
-      "We provide fun and unique suggestions along with our results to MAKE a difference if you want to.",
-
+      "Elevate your casual wear with our premium track pants, where style meets comfort.",
     src: "/images/img 05.png",
-
     color: "#F99FEC",
   },
 ];
