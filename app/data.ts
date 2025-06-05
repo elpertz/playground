@@ -30,7 +30,7 @@ export const benefits: Benefit[] = [
   },
 
   {
-    title: "A special touch",
+    title: "Samuel que hace esto?",
 
     description:
       "Carefully chosen gifts demonstrate thoughtfulness and effort, and make the recipient feel valued.",

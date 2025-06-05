@@ -21,9 +21,9 @@ export default function Home() {
 
   return (
     <>
-      <div className="h-[90svh] w-full grid place-content-center bg-black/2 ">
+      <div className="h-[40svh] w-full grid place-content-center bg-black/2 ">
         <h1 className="text-4xl font-semibold mx-auto leading-tight ">
-          Staking Cards framer motion
+          Staking Cards
         </h1>
       </div>
       <div ref={container} className=" w-full ">

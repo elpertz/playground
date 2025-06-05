@@ -30,7 +30,7 @@ export default function index({
     target: container,
     offset: ["start end", "start start"],
   });
-  const cardRotate = useTransform(scrollYProgress, [0, 1], [-12, 0]);
+  const cardRotate = useTransform(scrollYProgress, [0, 1], [-12 , 0]);
   const cardScale = useTransform(progress, range || [0, 1], [
     1,
     targetScale || 1.2,
