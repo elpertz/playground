@@ -38,7 +38,7 @@ export default function index({
   return (
     <div
       ref={container}
-      className="flex  items-center justify-center h-svh sticky top-0"
+      className="flex items-center justify-center h-svh sticky top-0"
     >
       <motion.div
         style={{
@@ -47,7 +47,7 @@ export default function index({
           backgroundColor: color,
           top: `calc(-10% + ${index * 25}px)`,
         }}
-        className="flex  relative h-[500px] w-[1000px] rounded-3xl p-11 origin-top gap-12 items-center overflow-hidden"
+        className="flex relative h-[500px] w-[1000px] rounded-3xl p-11 origin-top gap-12 items-center overflow-hidden"
       >
         <div className="flex flex-col w-2/5 space-y-4 text-balance">
           <h2 className="text-4xl font-bold">{title}</h2>
@@ -55,13 +55,13 @@ export default function index({
             <p>{description}</p>
           </div>
         </div>
-        <div className="flex flex-col w-3/5 aspect-square  rounded-3xl relative">
+        <div className="flex flex-col w-3/5 aspect-square rounded-3xl relative">
           <Image
             src={src}
             alt="image"
             width={1000}
             height={1000}
-            className="absolute size-[140%] object-cover  bottom-2/5 left-1/2 transform -translate-x-1/2 translate-y-1/2 "
+            className="absolute size-[140%] object-cover inset-0 m-auto transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2"
           />
         </div>
       </motion.div>
