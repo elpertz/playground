@@ -1,9 +1,9 @@
 "use client";
 import React, { useRef } from "react";
 import Image from "next/image";
-import { useTransform, motion, useScroll } from "motion/react";
+import { useTransform, motion, useScroll, MotionValue } from "motion/react";
 
-export default function index({
+export default function Card({
   index,
   title,
   description,
@@ -12,7 +12,6 @@ export default function index({
   range,
   progress,
   targetScale,
-  rotate,
 }: {
   index: number;
   title: string;
@@ -22,8 +21,7 @@ export default function index({
   color: string;
   range?: number[];
   targetScale?: number;
-  progress?: any;
-  rotate?: number;
+  progress: MotionValue<number>;
 }) {
   const container = useRef(null);
   const { scrollYProgress } = useScroll({
