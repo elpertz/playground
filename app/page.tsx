@@ -1,9 +1,8 @@
 "use client";
-import Image from "next/image";
 import { benefits, Benefit } from "./data";
 import Card from "./components/card/Card";
-import { motion, useScroll } from "framer-motion";
-import { useRef, useEffect } from "react";
+import { useScroll } from "framer-motion";
+import { useRef } from "react";
 
 export default function Home() {
   const container = useRef(null);
